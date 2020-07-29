@@ -1,0 +1,33 @@
+.file-picker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  border-radius: 5px;
+  background-color: lightgreen;
+}
+
+.file-picker-icon {
+  margin: 10px;
+}
+
+.file-picker-input {
+  width: 0;
+  height: 0;
+}
+
+.file-picker-button {
+  all: unset;
+  padding: 10px 0;
+  width: 100%;
+  text-align: center;
+  border-radius: 0 0 5px 5px;
+  cursor: pointer;
+  color: white;
+  background-color: green;
+  opacity: 0.7;
+}
+
+.file-picker-button:hover {
+  opacity: 1;
+}

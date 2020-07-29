@@ -1,0 +1,14 @@
+.files {
+  margin: 0;
+}
+
+.file-details {
+  margin: 5px;
+}
+
+.file-details-remove {
+  all: unset;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 5px;
+}
